@@ -1,0 +1,10 @@
+
+input-file: /home/jpcoyne/Documents/taxes/coinbase-pro-account2020.csv
+
+basis:
+  BTC:
+    date: 
+    price: 
+  XRP:
+    date: 
+    price: 
