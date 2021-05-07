@@ -1,10 +1,13 @@
 
-input-file: /home/jpcoyne/Documents/taxes/coinbase-pro-account2020.csv
+input-file: /Users/johncoyne/coinbase.csv
 
 basis:
-  BTC:
-    date: 
-    price: 
-  XRP:
-    date: 
-    price: 
+  btc:
+    date: 2019-12-15
+    price: 65
+  xrp:
+    date: 2018-01-01
+    price: 800
+  ltc:
+    date: 2019-11-01
+    price: 250

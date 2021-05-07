@@ -7,5 +7,6 @@ public enum Unit {
 	LTC,
 	ETH,
 	ETC,
-	DAI
+	DAI,
+	BCH
 }

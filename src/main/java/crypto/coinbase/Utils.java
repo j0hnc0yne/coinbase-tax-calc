@@ -4,6 +4,9 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 import org.apache.commons.csv.CSVFormat;
@@ -45,6 +48,10 @@ public class Utils {
 	
 	public static BigDecimal bigD(double number) {
 		return bigD(Double.toString(number));
+	}
+	
+	public static Date getDateYYYYMMDD(String date) throws ParseException {
+		return new SimpleDateFormat("yyyy-MM-dd").parse(date);
 	}
 
 }
