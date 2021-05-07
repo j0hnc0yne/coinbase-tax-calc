@@ -29,7 +29,7 @@ public class Utils {
 	}
 
 	public static void createFinalSaleCSVFile(List<FinalSale> sales) throws IOException {
-		String[] HEADERS = { "Asset Name", "Recieved Date", "Cost Basis", "Sold Date", "Proceeds"};
+		String[] HEADERS = { "Currency Name", "Purchase Date", "Cost Basis", "Date sold", "Proceeds"};
 
 		FileWriter out = new FileWriter("sales.csv");
 		try (CSVPrinter printer = new CSVPrinter(out, CSVFormat.DEFAULT.withHeader(HEADERS))) {
